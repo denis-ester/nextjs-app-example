@@ -1,0 +1,11 @@
+node_modules
+.next
+!components/node_modules
+.vscode
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.DS_Store
+.env
+api-data

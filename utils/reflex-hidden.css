@@ -1,0 +1,68 @@
+/**
+ * reflex grid doesn't have good up/down breakpoints for hiding elements. this is based on
+ * https://gist.github.com/lechup/269fd0e93e82d205266d636981ddceb0
+ */
+
+.hidden {
+  display: none !important;
+}
+
+@media (min-width: 576px) {
+  .hidden-xs-up {
+    display: none !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .hidden-xs-down {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .hidden-sm-up {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hidden-sm-down {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .hidden-md-up {
+    display: none !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .hidden-md-down {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hidden-lg-up {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  .hidden-lg-down {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1600px) {
+  .hidden-lgx-up {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1599px) {
+  .hidden-lgx-down {
+    display: none !important;
+  }
+}
